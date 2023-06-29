@@ -20,6 +20,7 @@ import numpy as np
 import tqdm
 from rouge_score import rouge_scorer
 import utils
+from dotenv import load_dotenv
 
 import fire
 
@@ -118,6 +119,7 @@ def generate_instruction_following_data(
     top_p=1.0,
     num_cpus=16,
 ):
+    load_dotenv(override=True)
     seed_tasks = [json.loads(l) for l in open(seed_tasks_path, "r")]
     seed_instruction_data = [
         {"instruction": t["instruction"], "input": t["instances"][0]["input"], "output": t["instances"][0]["output"]}

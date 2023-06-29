@@ -1,9 +1,11 @@
-# Code Alpaca: An Instruction-following LLaMA Model trained on code generation instructions 
+# Code Alpaca - Nick Testing: An Instruction-following LLaMA Model trained on code generation instructions 
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
 This is the repo for the Code Alpaca project, which aims to build and share an instruction-following LLaMA model for code generation. This repo is fully based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) ,and only changes the data used for training. Training approach is the same.
+
+I need to play around with this to see how the generation pipeline works - NR
 
 The repo contains:
 - The [20K data](#data-release) used for fine-tuning the model
