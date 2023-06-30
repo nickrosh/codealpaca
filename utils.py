@@ -20,7 +20,6 @@ if openai_org is not None:
     openai.organization = openai_org
     logging.warning(f"Switching to organization: {openai_org} for OAI API key.")
 
-
 @dataclasses.dataclass
 class OpenAIDecodingArguments(object):
     max_tokens: int = 1800
@@ -46,7 +45,7 @@ def openai_completion(
     max_batches=sys.maxsize,
     return_text=False,
     **decoding_kwargs,
-) -> Union[Union[StrOrOpenAIObject], Sequence[StrOrOpenAIObject], Sequence[Sequence[StrOrOpenAIObject]],]:
+) -> Union[StrOrOpenAIObject, Sequence[StrOrOpenAIObject], Sequence[Sequence[StrOrOpenAIObject]],]:
     """Decode with OpenAI API.
 
     Args:

@@ -1,0 +1,1064 @@
+[
+    {
+        "instruction": "Generate a secure password of 8 characters.",
+        "input": "",
+        "output": "ChFt74jJ",
+        "most_similar_instructions": {
+            "Generate a correct python program to fulfill the following purpose:": 0.23529411764705882,
+            "Write a Python function to reverse a given list of integers.": 0.2222222222222222,
+            "Write a program to compute the sum of integers from k to n.": 0.2,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.16666666666666666,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.16,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.14285714285714285,
+            "Suggest a completion for the following python code.": 0.13333333333333333,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.125,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.125,
+            "Identify the pos tag of the word in the given sentence.": 0.1111111111111111
+        },
+        "avg_similarity_score": 0.11762396753845965
+    },
+    {
+        "instruction": "Make a C program which takes a string as input and returns the last two characters in the string.",
+        "input": "Hi There",
+        "output": "#include<stdio.h>\n#include<string.h>\n\nint main()\n{\n    char str[50];\n    scanf( \"%s\", str );\n\n    int len = strlen( str );\n    if( len < 2 )\n        return 0;\n\n    printf( \"%c%c\\n\", str[len-2], str[len-1] );\n\n    return 0;\n}",
+        "most_similar_instructions": {
+            "Write a Python function that takes two numbers as input and returns their sum.": 0.36363636363636365,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.27777777777777773,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.24242424242424243,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.2222222222222222,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.21621621621621623,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.21428571428571427,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.21428571428571427,
+            "Generate a correct python program to fulfill the following purpose:": 0.20689655172413793,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.2,
+            "Identify the pos tag of the word in the given sentence.": 0.19999999999999998
+        },
+        "avg_similarity_score": 0.17500075096124895
+    },
+    {
+        "instruction": "Create a function which returns false if two strings are equal.",
+        "input": "String 1: hello\nString 2: hello",
+        "output": "public static boolean compareStrings(String str1, String str2) \n{ \n    if (str1.length() != str2.length()) \n        return false; \n\n    int length = str1.length(); \n  \n    for (int i = 0; i < length; i++) \n    { \n        if (str1.charAt(i) != str2.charAt(i)) \n            return false; \n    } \n    return true; \n}",
+        "most_similar_instructions": {
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.2857142857142857,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.26666666666666666,
+            "Write a Python function that takes two numbers as input and returns their sum.": 0.23999999999999996,
+            "Write a Python function to reverse a given list of integers.": 0.18181818181818182,
+            "Write a Python function to check if a given word is a palindrome or not. A palindrome is a word that reads the same backwards as forwards.": 0.15789473684210525,
+            "You need to read a code and detect if there is a syntax error or not. Outpus true if there is error, output false if there is not.": 0.15384615384615383,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.15384615384615383,
+            "Generate a secure password of 8 characters.": 0.1111111111111111,
+            "Suggest a completion for the following python code.": 0.10526315789473685,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.09999999999999999
+        },
+        "avg_similarity_score": 0.11423842212695065
+    },
+    {
+        "instruction": "Create an algorithm to sort an array of integers in descending order.",
+        "input": "1,2,3,4,5",
+        "output": "// Algorithm to sort an array of integers in descending order \npublic void sortDescending(int[] arr) { \n   int n = arr.length; \n   \n   // Loop through all the elements \n   for (int i = 0; i < n-1; i++) \n   { \n       // Last i elements are already in place \n       for (int j = 0; j < n-i-1; j++) \n       { \n           // Swap if the element found is greater \n           // than the next element \n           if (arr[j] < arr[j+1]) \n           { \n               // swap arr[j+1] and arr[i] \n               int temp = arr[j]; \n               arr[j] = arr[j+1]; \n               arr[j+1] = temp; \n           } \n       } \n   } \n}",
+        "most_similar_instructions": {
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.27586206896551724,
+            "Write a Python function to reverse a given list of integers.": 0.2608695652173913,
+            "Write a program to compute the sum of integers from k to n.": 0.24000000000000002,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2,
+            "Identify the pos tag of the word in the given sentence.": 0.17391304347826086,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.15384615384615383,
+            "Write a JavaScript code snippet to show an alert message with the text \"Welcome to my website!\".": 0.13793103448275862,
+            "Write an SQL query to select all columns from a table named 'employees' where the age is greater than 30.": 0.125,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.12121212121212123,
+            "Generate a secure password of 8 characters.": 0.10526315789473685
+        },
+        "avg_similarity_score": 0.10266391094617738
+    },
+    {
+        "instruction": "Construct a visual representation of the Fibonacci sequence using Python.",
+        "input": "",
+        "output": "import matplotlib.pyplot as plt\n\nx_li = [] \ny_li = []\n\na, b = 0, 1 \nwhile a<1000: \n    x_li.append(a) \n    y_li.append(b) \n    a, b = b, a+b \n\nplt.plot(x_li, y_li)\nplt.title(\"Fibonacci Sequence\")\nplt.xlabel(\"Fibonacci number\")\nplt.ylabel(\"Value\")\nplt.show()",
+        "most_similar_instructions": {
+            "Suggest a completion for the following python code.": 0.33333333333333326,
+            "Generate a secure password of 8 characters.": 0.23529411764705882,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.22222222222222224,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.21428571428571427,
+            "Generate a correct python program to fulfill the following purpose:": 0.20000000000000004,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.19354838709677416,
+            "Write a Python function to reverse a given list of integers.": 0.1904761904761905,
+            "Identify the pos tag of the word in the given sentence.": 0.1904761904761905,
+            "Write a script in JavaScript for printing the current date and time.": 0.1818181818181818,
+            "Write a program to compute the sum of integers from k to n.": 0.17391304347826086
+        },
+        "avg_similarity_score": 0.15822779077167948
+    },
+    {
+        "instruction": "Count the number of consonants in a given sentence.",
+        "input": "The quick brown fox jumped over the lazy dog",
+        "output": "public class CountConsonants {\n    public static void main(String[] args) {\n        String sentence = \"The quick brown fox jumped over the lazy dog\";\n        int consonantsCount = 0;\n\n        for (int i = 0; i < sentence.length(); i++) {\n            char c = sentence.charAt(i);\n            if (c != 'a' && c != 'e' && c != 'i' && c != 'o' && c != 'u' && c != ' ')\n                consonantsCount++;\n        }\n\n        System.out.println(\"The number of consonants in the sentence is: \" + consonantsCount);\n    }\n}",
+        "most_similar_instructions": {
+            "Identify the pos tag of the word in the given sentence.": 0.5,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.26666666666666666,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2222222222222222,
+            "Write a Python function to reverse a given list of integers.": 0.19999999999999998,
+            "Create an algorithm to sort an array of integers in descending order.": 0.1904761904761905,
+            "Write a program to compute the sum of integers from k to n.": 0.18181818181818185,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.16666666666666669,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.15384615384615383,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.15384615384615383,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.14285714285714285
+        },
+        "avg_similarity_score": 0.13958607571225679
+    },
+    {
+        "instruction": "You need to make a program that calculates the area of a circle.",
+        "input": "Radius: 3",
+        "output": "public class CircleArea{\n    public static void main(String args[]) {\n        double radius = 3; \n        double area = Math.PI * radius * radius;\n        System.out.println(\"Area of the circle is \" + area); \n    }\n}",
+        "most_similar_instructions": {
+            "Write a program to compute the sum of integers from k to n.": 0.3076923076923077,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.2941176470588235,
+            "Count the number of consonants in a given sentence.": 0.27272727272727276,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.27272727272727276,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.27272727272727276,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.26666666666666666,
+            "Generate a correct python program to fulfill the following purpose:": 0.2608695652173913,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2580645161290323,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.25,
+            "Write a Python function to reverse a given list of integers.": 0.24999999999999994
+        },
+        "avg_similarity_score": 0.2009911324741209
+    },
+    {
+        "instruction": "Translate a given sentence into uppercase.",
+        "input": "This is a test sentence",
+        "output": "public class SentenceToUpperCase{\n    public static String convertToUpperCase(String str){\n        StringBuilder sb = new StringBuilder();\n  \n        for (int i = 0; i < str.length(); i++) {\n            char ch = str.charAt(i);\n            if (Character.isLowerCase(ch)) {\n                sb.append(Character.toUpperCase(ch));\n            } else {\n                sb.append(ch);\n            }\n        }\n        return sb.toString(); \n    }\n    \n    public static void main(String[] args){\n        String str = \"This is a test sentence\";\n        System.out.println(convertToUpperCase(str)); \n    } \n}",
+        "most_similar_instructions": {
+            "Count the number of consonants in a given sentence.": 0.4,
+            "Identify the pos tag of the word in the given sentence.": 0.23529411764705885,
+            "Write a Python function to reverse a given list of integers.": 0.23529411764705885,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.19047619047619044,
+            "Generate a secure password of 8 characters.": 0.15384615384615383,
+            "Suggest a completion for the following python code.": 0.14285714285714288,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.13333333333333333,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.13333333333333333,
+            "Construct a visual representation of the Fibonacci sequence using Python.": 0.125,
+            "Generate a correct python program to fulfill the following purpose:": 0.125
+        },
+        "avg_similarity_score": 0.12071663164811637
+    },
+    {
+        "instruction": "Create a Python object which simulates a die.",
+        "input": "",
+        "output": "import random\n\nclass Die:\n    def __init__(self, sides=6):\n        self.sides = sides\n\n    def roll(self):\n        return random.randint(1, self.sides)   \n\ndie = Die() \nprint(die.roll())",
+        "most_similar_instructions": {
+            "Write a Python function to reverse a given list of integers.": 0.3157894736842105,
+            "Create a function which returns false if two strings are equal.": 0.3157894736842105,
+            "Suggest a completion for the following python code.": 0.25,
+            "Construct a visual representation of the Fibonacci sequence using Python.": 0.22222222222222224,
+            "Generate a correct python program to fulfill the following purpose:": 0.22222222222222224,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.22222222222222218,
+            "Write a basic HTML structure with a title \"My First Web Page\".": 0.2,
+            "You need to make a program that calculates the area of a circle.": 0.1904761904761905,
+            "Write a Python function that takes two numbers as input and returns their sum.": 0.18181818181818182,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.15249727188209827
+    },
+    {
+        "instruction": "Make a code which accepts an integer and counts the number of unique digits in the given number.",
+        "input": "12345",
+        "output": "def countUniqueDigits(number): \n    # Convert the number to a string\n    str_num = str(number) \n  \n    # A set to store all the digits in the number \n    digits = set() \n  \n    # Loop to append all the digits present in the number\n    for digit in str_num: \n        if digit not in digits: \n            digits.add(digit) \n  \n    # Return the size of the set \n    return len(digits) \n  \n# Driver Code \nnumber = 12345\nprint(countUniqueDigits(number))",
+        "most_similar_instructions": {
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.37837837837837834,
+            "Count the number of consonants in a given sentence.": 0.3703703703703704,
+            "Identify the pos tag of the word in the given sentence.": 0.3448275862068966,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.3333333333333333,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.30769230769230765,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.28571428571428575,
+            "You need to make a program that calculates the area of a circle.": 0.2580645161290323,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.2424242424242424,
+            "Write a JavaScript code snippet to show an alert message with the text \"Welcome to my website!\".": 0.22857142857142856,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.22857142857142856
+        },
+        "avg_similarity_score": 0.19017282953620135
+    },
+    {
+        "instruction": "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.",
+        "input": "aabbaacaababa",
+        "output": "public class LongestPalindrome {\n    public static void main(String[] args) {\n        String s = \"aabbaacaababa\";\n        int maxLength = 0;\n        String longestPalindrome = \"\";\n        int length = s.length();\n\n        for(int i = 1;i<length;i++){\n            for(int j = 0;j<length - i;j++){\n                int x=j;\n                int y=j+i;\n                boolean isPalindrome=true;\n\n                while(x<y){\n                    if(s.charAt(x)!=s.charAt(y)){\n                        isPalindrome=false;\n                        break;\n                    }\n                    x++;\n                    y--;\n                }\n\n                if(isPalindrome){\n                    if(i>maxLength){\n                        maxLength=i;\n                        longestPalindrome=s.substring(j, j+i+1);\n                    }\n                }\n            }\n        }\n\n        System.out.println(\"Longest palindrome is: \"+longestPalindrome);\n    }\n}",
+        "most_similar_instructions": {
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.4444444444444444,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.35294117647058826,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.30769230769230765,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.30769230769230765,
+            "You need to make a program that calculates the area of a circle.": 0.26666666666666666,
+            "Generate a secure password of 8 characters.": 0.25,
+            "Create a Python object which simulates a die.": 0.24,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.22857142857142856,
+            "Construct a visual representation of the Fibonacci sequence using Python.": 0.22222222222222224,
+            "Generate a correct python program to fulfill the following purpose:": 0.22222222222222224
+        },
+        "avg_similarity_score": 0.19092059796151092
+    },
+    {
+        "instruction": "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.",
+        "input": "1, 9, 2, 3, 1, 6, 2",
+        "output": "def mode(arr): \n    n = len(arr) \n    max_count = 0\n    res = arr[0] \n    curr_count = 1\n  \n    for i in range(1, n): \n        if arr[i] == res: \n            curr_count += 1\n          \n        else : \n            if curr_count > max_count:\n                max_count = curr_count \n                res = arr[i-1] \n  \n            curr_count = 1\n  \n    # If last element is most frequent \n    if curr_count > max_count: \n        max_count = curr_count \n        res = arr[n-1] \n  \n    return res \n\n# Driver Code \narr = [1, 9, 2, 3, 1, 6, 2]\nprint(\"Mode:\",mode(arr))",
+        "most_similar_instructions": {
+            "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.": 0.45,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.45,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.28571428571428575,
+            "Create an algorithm to sort an array of integers in descending order.": 0.2857142857142857,
+            "Write a program to compute the sum of integers from k to n.": 0.27777777777777773,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.25,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.25,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.25,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.24390243902439024,
+            "Identify the pos tag of the word in the given sentence.": 0.2352941176470588
+        },
+        "avg_similarity_score": 0.19178792096634975
+    },
+    {
+        "instruction": "Create a program that reads an array of integers and prints out the length of the longest increasing subarray.",
+        "input": "1, 5, 2, 4, 9, 3",
+        "output": "public class LongestIncreasingSubArray{\n    static int lengthOfLIS(int[] arr) { \n        int n = arr.length;\n        if (n == 0) \n            return 0;  \n        int[] lis = new int[n]; \n        lis[0] = 1;    \n        int max = 1; \n        for (int i = 1; i < n; i++ ) \n        { \n            lis[i] = 1; \n            for (int j = 0; j < i; j++ )   \n                if ( arr[i] > arr[j] && lis[i] < lis[j] + 1) \n                    lis[i] = lis[j] + 1; \n            if ( max < lis[i] ) \n                max = lis[i]; \n        } \n        return max;\n    } \n    public static void main(String args[]) {\n        int arr[] = { 1, 5, 2, 4, 9, 3 }; \n        System.out.println(\"Length of lis is \" + lengthOfLIS( arr ) ); \n    } \n}",
+        "most_similar_instructions": {
+            "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.": 0.5714285714285715,
+            "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.": 0.5555555555555555,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.5,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.3243243243243243,
+            "Create an algorithm to sort an array of integers in descending order.": 0.3225806451612903,
+            "You need to make a program that calculates the area of a circle.": 0.3125,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.2857142857142857,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.2857142857142857,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.2631578947368421,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.25
+        },
+        "avg_similarity_score": 0.2122986169494406
+    },
+    {
+        "instruction": "Develop an algorithm to find out the duplicate words in a sentence.",
+        "input": "My cat is a black cat and my dog is a white dog",
+        "output": "public static void findDuplicates(String str) { \n    // Split the string into words \n    String[] words = str.split(\" \"); \n\n    // Create an array to track the count \n    int[] count = new int[words.length]; \n  \n    // Iterate each word and increment   \n    // it's count \n    for (int i = 0; i < words.length; i++) { \n        for (int j = 0; j < words.length; j++) { \n            if(words[i].equals(words[j])) { \n                count[i]++; \n            } \n        } \n    } \n  \n    // Print the duplicate words \n    for (int i = 0; i < words.length; i++) { \n        if (count[i] > 1) { \n            System.out.println(words[i]);  \n        } \n    } \n}",
+        "most_similar_instructions": {
+            "Count the number of consonants in a given sentence.": 0.380952380952381,
+            "Create an algorithm to sort an array of integers in descending order.": 0.3333333333333333,
+            "Identify the pos tag of the word in the given sentence.": 0.2608695652173913,
+            "You need to make a program that calculates the area of a circle.": 0.24000000000000002,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.22222222222222224,
+            "Translate a given sentence into uppercase.": 0.2222222222222222,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.2,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2,
+            "Create a program that reads an array of integers and prints out the length of the longest increasing subarray.": 0.1935483870967742,
+            "Write an SQL query to select all columns from a table named 'employees' where the age is greater than 30.": 0.18749999999999997
+        },
+        "avg_similarity_score": 0.15227273563564475
+    },
+    {
+        "instruction": "Optimize the given Python code to improve the performance.",
+        "input": "def merge_arrays(arr1, arr2):\n    merged_array = []\n    \n    i = 0\n    j = 0\n    while i < len(arr1) and j < len(arr2):\n        if arr1[i] < arr2[j]:\n            merged_array.append(arr1[i])\n            i += 1\n        else:\n            merged_array.append(arr2[j])\n            j += 1\n    while i < len(arr1):\n        merged_array.append(arr1[i])\n        i += 1\n    while j < len(arr2):\n        merged_array.append(arr2[j])\n        j += 1\n    return merged_array",
+        "output": "def merge_arrays(arr1, arr2): \n    merged_array = [] \n    m=len(arr1) \n    n=len(arr2) \n  \n    i=0\n    j=0\n    k=0\n  \n    while (i<m and j <n): \n        if arr1[i] < arr2[j]: \n            merged_array.append(arr1[i]) \n            i+=1\n        else: \n            merged_array.append(arr2[j]) \n            j+=1\n        k+=1\n  \n    while i < m: \n        merged_array.append(arr1[i]) \n        i+=1\n        k+=1\n  \n    while j < n: \n        merged_array.append(arr2[j]) \n        j+=1\n        k+=1\n  \n    return merged_array",
+        "most_similar_instructions": {
+            "Suggest a completion for the following python code.": 0.35294117647058826,
+            "Write Python code to solve this leetcode problem.": 0.35294117647058826,
+            "Generate a correct python program to fulfill the following purpose:": 0.3157894736842105,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.25,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.23076923076923078,
+            "Write a JavaScript code snippet to show an alert message with the text \"Welcome to my website!\".": 0.23076923076923078,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2222222222222222,
+            "Count the number of consonants in a given sentence.": 0.2222222222222222,
+            "Construct a visual representation of the Fibonacci sequence using Python.": 0.2105263157894737,
+            "Write a Python function to reverse a given list of integers.": 0.19999999999999998
+        },
+        "avg_similarity_score": 0.1496937137654318
+    },
+    {
+        "instruction": "Create a web scraper to get data from this web page.",
+        "input": "https://www.imdb.com/search/title/?groups=top_1000&sort=user_rating",
+        "output": "import requests\nfrom bs4 import BeautifulSoup\n\nurl = 'https://www.imdb.com/search/title/?groups=top_1000&sort=user_rating'\n\npage = requests.get(url)\nsoup = BeautifulSoup(page.content, 'html.parser')\n\n# Find all of the movie titles & ratings\ntitles = soup.find_all('td', class_='titleColumn')\nratings = soup.find_all('td', class_='ratingColumn imdbRating')\n\n# Create empty list to store movies and ratings\nmovies_with_ratings = []\n\n# Loop through titles and ratings and append to movies_with_ratings\nfor title, rating in zip(titles, ratings):\n    movie_dict = {}\n    movie_dict['title'] = title.a.text\n    movie_dict['rating'] = float(rating.strong.text)\n    movies_with_ratings.append(movie_dict)\n\nprint(movies_with_ratings)",
+        "most_similar_instructions": {
+            "Write a basic HTML structure with a title \"My First Web Page\".": 0.2608695652173913,
+            "Write a program to compute the sum of integers from k to n.": 0.24999999999999994,
+            "Write Python code to solve this leetcode problem.": 0.2105263157894737,
+            "Create a Python object which simulates a die.": 0.2105263157894737,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.20689655172413793,
+            "Generate a correct python program to fulfill the following purpose:": 0.1904761904761905,
+            "Write a Python function to reverse a given list of integers.": 0.18181818181818182,
+            "Create a function which returns false if two strings are equal.": 0.18181818181818182,
+            "Create an algorithm to sort an array of integers in descending order.": 0.17391304347826086,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.16
+        },
+        "avg_similarity_score": 0.12727462064285347
+    },
+    {
+        "instruction": "Generate a random password with a minimum length of 8 characters.",
+        "input": "",
+        "output": "import string\nimport random\n\ndef generate_password(length):\n    characters = string.ascii_letters + string.digits + '!@#$%^&*()_?'\n    password = ''.join(random.choice(characters) for i in range(length))\n    return password\n\nrandom_password = generate_password(8)\nprint(random_password)",
+        "most_similar_instructions": {
+            "Generate a secure password of 8 characters.": 0.6666666666666665,
+            "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.": 0.2857142857142857,
+            "Write a Python function to reverse a given list of integers.": 0.2727272727272727,
+            "Write a basic HTML structure with a title \"My First Web Page\".": 0.2608695652173913,
+            "Create a Python object which simulates a die.": 0.2105263157894737,
+            "Create a program that reads an array of integers and prints out the length of the longest increasing subarray.": 0.19999999999999998,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.19999999999999998,
+            "Construct a visual representation of the Fibonacci sequence using Python.": 0.1904761904761905,
+            "Generate a correct python program to fulfill the following purpose:": 0.1904761904761905,
+            "You need to make a program that calculates the area of a circle.": 0.16666666666666669
+        },
+        "avg_similarity_score": 0.14604442967130768
+    },
+    {
+        "instruction": "Write a Java program to calculate the sum of digits of a given number.",
+        "input": "",
+        "output": "public class SumOfDigits {\n\n    public static int sumOfDigits(int n) {\n        int sum = 0; \n        while (n > 0) { \n            sum += n % 10; \n            n = n / 10; \n        } \n        return sum; \n    } \n  \n    public static void main(String[] args) { \n        int num = 687; \n        System.out.println(\"Sum of digits in \" + num+ \" is \"  + sumOfDigits(num));\n    } \n}",
+        "most_similar_instructions": {
+            "Write a program to compute the sum of integers from k to n.": 0.5185185185185186,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.4137931034482759,
+            "Write a Python function to reverse a given list of integers.": 0.4,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.375,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.375,
+            "You need to make a program that calculates the area of a circle.": 0.3703703703703704,
+            "Count the number of consonants in a given sentence.": 0.34782608695652173,
+            "Generate a correct python program to fulfill the following purpose:": 0.3333333333333333,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.2857142857142857,
+            "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.": 0.27027027027027023
+        },
+        "avg_similarity_score": 0.23878923084519618
+    },
+    {
+        "instruction": "Create a random number generator with a minimum of 8 digits.",
+        "input": "",
+        "output": "import random\n\ndef generate_random_number(length):\n    # Generate a random number of the specified length\n    return ''.join(random.choices( \"0123456789\", k=length))\n\nrandom_number = generate_random_number(8)\nprint(random_number)",
+        "most_similar_instructions": {
+            "Generate a random password with a minimum length of 8 characters.": 0.6363636363636364,
+            "Generate a secure password of 8 characters.": 0.33333333333333326,
+            "Create a Python object which simulates a die.": 0.3157894736842105,
+            "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.": 0.2857142857142857,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.27586206896551724,
+            "Write a Python function to reverse a given list of integers.": 0.2727272727272727,
+            "Write a basic HTML structure with a title \"My First Web Page\".": 0.2608695652173913,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.23999999999999996,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.21428571428571427,
+            "Count the number of consonants in a given sentence.": 0.19999999999999998
+        },
+        "avg_similarity_score": 0.17093367981184995
+    },
+    {
+        "instruction": "Implement a program to print out the Fibonacci numbers up to a given number.",
+        "input": "",
+        "output": "def Fibonacci(n): \n    # 0th and 1st number of \n\t# the series are 0 and 1 \n\tfibonacci = [0, 1]\n   \n\t# Append the new element \n\tfor i in range(2,n+1): \n\t\tfibonacci.append(fibonacci[i-1] + fibonacci[i-2]) \n\treturn fibonacci \n\n# Driver Program \nn = int(input())\nfibonacci_series= Fibonacci(n) \nfor num in fibonacci_series:\n    print(num, end=\" \")",
+        "most_similar_instructions": {
+            "Write a Java program to calculate the sum of digits of a given number.": 0.5,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.4827586206896552,
+            "Write a program to compute the sum of integers from k to n.": 0.3703703703703704,
+            "Generate a correct python program to fulfill the following purpose:": 0.3333333333333333,
+            "Write a Python function to reverse a given list of integers.": 0.32,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.30769230769230765,
+            "You need to make a program that calculates the area of a circle.": 0.29629629629629634,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.2857142857142857,
+            "Count the number of consonants in a given sentence.": 0.2608695652173913,
+            "Write a JavaScript code snippet to show an alert message with the text \"Welcome to my website!\".": 0.2580645161290323
+        },
+        "avg_similarity_score": 0.2088900430881922
+    },
+    {
+        "instruction": "Write a Python program to find all unique words in a given text.",
+        "input": "",
+        "output": "text = 'This is a test to find all the unique words in a given text.'\n\nwords = []\nfor word in text.split():\n    if word not in words:\n        words.append(word)\n\nprint(\"Unique words in given text:\", words)",
+        "most_similar_instructions": {
+            "Write a Python function to find all prime numbers up to the given number n.": 0.5,
+            "Write a Python function to reverse a given list of integers.": 0.4999999999999999,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4444444444444445,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.4,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.3703703703703704,
+            "Generate a correct python program to fulfill the following purpose:": 0.34782608695652173,
+            "Write a program to compute the sum of integers from k to n.": 0.3076923076923077,
+            "Write a Python function to check if a given word is a palindrome or not. A palindrome is a word that reads the same backwards as forwards.": 0.3,
+            "Write Python code to solve this leetcode problem.": 0.2857142857142857,
+            "Create a Python object which simulates a die.": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.237243313277492
+    },
+    {
+        "instruction": "Write a Java program to check if a given number is a prime number.",
+        "input": "",
+        "output": "public class PrimeNumber {\n\n    public static boolean isPrime(int number) {\n        if (number <= 1) {\n            return false;\n        }\n        for (int i = 2; i < number; i++) {\n            if (number % i == 0) {\n                return false;\n            }\n        }\n        return true;\n    }\n\n    public static void main(String[] args) {\n        int num = 17;\n        boolean result = isPrime(num);\n        System.out.println(\"The number \" + num + (result ? \" is \" : \" is not \") + \"prime number\");\n    }\n}",
+        "most_similar_instructions": {
+            "Write a Java program to calculate the sum of digits of a given number.": 0.5714285714285714,
+            "Write a Python program to find all unique words in a given text.": 0.4444444444444445,
+            "Write a Python function to check if a given word is a palindrome or not. A palindrome is a word that reads the same backwards as forwards.": 0.43902439024390244,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.42857142857142855,
+            "Write a Python function to reverse a given list of integers.": 0.4,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.3448275862068965,
+            "Write a program to compute the sum of integers from k to n.": 0.29629629629629634,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.2857142857142857,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.2608695652173913,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.2608695652173913
+        },
+        "avg_similarity_score": 0.20860285780819768
+    },
+    {
+        "instruction": "Generate a random number sequence in Python.",
+        "input": "",
+        "output": "import random\nnums = [random.randint(0,100) for _ in range(10)]",
+        "most_similar_instructions": {
+            "Generate a correct python program to fulfill the following purpose:": 0.3529411764705882,
+            "Construct a visual representation of the Fibonacci sequence using Python.": 0.3529411764705882,
+            "Create a random number generator with a minimum of 8 digits.": 0.33333333333333326,
+            "Generate a random password with a minimum length of 8 characters.": 0.33333333333333326,
+            "Generate a secure password of 8 characters.": 0.2857142857142857,
+            "Create a Python object which simulates a die.": 0.26666666666666666,
+            "Suggest a completion for the following python code.": 0.26666666666666666,
+            "Count the number of consonants in a given sentence.": 0.25,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.24,
+            "Write a Python function to reverse a given list of integers.": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.1712503613990402
+    },
+    {
+        "instruction": "Compute the sum of numbers in a given array using the reduce function in JavaScript.",
+        "input": "array = [1,2,3,4,5]",
+        "output": "reducedValue = array.reduce(( accumulator, currentNumber ) => {\n  return accumulator + currentNumber;\n}, 0);",
+        "most_similar_instructions": {
+            "Count the number of consonants in a given sentence.": 0.4166666666666667,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.3448275862068965,
+            "Identify the pos tag of the word in the given sentence.": 0.30769230769230765,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.303030303030303,
+            "Write a program to compute the sum of integers from k to n.": 0.28571428571428575,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.2758620689655172,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.25,
+            "Optimize the given Python code to improve the performance.": 0.25,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.2424242424242424,
+            "Write a script in JavaScript for printing the current date and time.": 0.22222222222222224
+        },
+        "avg_similarity_score": 0.1741725668873291
+    },
+    {
+        "instruction": "Design a class for employee details in C++.",
+        "input": "",
+        "output": "class Employee\n{\nprivate: \n     string name;\n     int age;\n     float wages;\npublic: \n     void setName(string n)\n     {\n        name = n;\n     }\n     string getName()\n     {\n        return name;\n     }\n     void setAge(int a)\n     {\n        age = a;\n     }\n     int getAge()\n     {\n        return age;\n     }\n     void setWages(float w)\n     {\n        wages = w;\n     }\n     float getWages()\n     {\n        return wages;\n     }\n};",
+        "most_similar_instructions": {
+            "Generate a random number sequence in Python.": 0.26666666666666666,
+            "Suggest a completion for the following python code.": 0.25,
+            "Write a simple C# program that prints \"Hello, World!\".": 0.23529411764705882,
+            "Write a simple C++ program that prints \"Hello, World!\".": 0.23529411764705882,
+            "Write a script in JavaScript for printing the current date and time.": 0.2,
+            "Write a Python program to find all unique words in a given text.": 0.1904761904761905,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.18181818181818182,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.1739130434782609,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.15999999999999998,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.15384615384615383
+        },
+        "avg_similarity_score": 0.12062610899507865
+    },
+    {
+        "instruction": "Design a function in Java to reverse an array in-place.",
+        "input": "",
+        "output": "public void reverseArray(int[] array) {\n  int i = 0;\n  int j = array.length - 1;\n  while (i < j) {\n    int temp = array[i];\n    array[i] = array[j];\n    array[j] = temp;\n    i++;\n    j--;\n  }\n}",
+        "most_similar_instructions": {
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.4,
+            "Write a Python function to reverse a given list of integers.": 0.36363636363636365,
+            "Create an algorithm to sort an array of integers in descending order.": 0.34782608695652173,
+            "Design a class for employee details in C++.": 0.3157894736842105,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.2857142857142857,
+            "Write a Python program to find all unique words in a given text.": 0.24999999999999994,
+            "Write a Java program to check if a given number is a prime number.": 0.23999999999999996,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.23999999999999996,
+            "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.": 0.2352941176470588,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.23076923076923075
+        },
+        "avg_similarity_score": 0.1710939123543696
+    },
+    {
+        "instruction": "Write a SQL query to find the average rating of customers who bought strawberries.",
+        "input": "",
+        "output": "SELECT AVG(rating) FROM Customers WHERE purchased_item LIKE '%strawberry%';",
+        "most_similar_instructions": {
+            "Write a program to compute the sum of integers from k to n.": 0.3703703703703704,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.35714285714285715,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.3448275862068965,
+            "Write a Python function to reverse a given list of integers.": 0.32,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.31250000000000006,
+            "Write a Python program to find all unique words in a given text.": 0.29629629629629634,
+            "Write an SQL query to select all columns from a table named 'employees' where the age is greater than 30.": 0.2941176470588235,
+            "Write a JavaScript code snippet to show an alert message with the text \"Welcome to my website!\".": 0.2580645161290323,
+            "Generate a correct python program to fulfill the following purpose:": 0.25,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.23076923076923075
+        },
+        "avg_similarity_score": 0.18806280050765284
+    },
+    {
+        "instruction": "Generate a Swift program to compute the factorial of a given number n.",
+        "input": "",
+        "output": "func factorial(n: Int) -> Int {\n     if (n == 0) {\n        return 1\n     } else {\n      return n * factorial(n - 1)\n   }\n}",
+        "most_similar_instructions": {
+            "Write a Java program to calculate the sum of digits of a given number.": 0.5925925925925927,
+            "Write a program to compute the sum of integers from k to n.": 0.5384615384615384,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.5185185185185186,
+            "Write a Java program to check if a given number is a prime number.": 0.4444444444444445,
+            "Generate a correct python program to fulfill the following purpose:": 0.4347826086956522,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.42857142857142855,
+            "Write a Python program to find all unique words in a given text.": 0.38461538461538464,
+            "You need to make a program that calculates the area of a circle.": 0.38461538461538464,
+            "Count the number of consonants in a given sentence.": 0.3636363636363637,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.3571428571428571
+        },
+        "avg_similarity_score": 0.248154653909158
+    },
+    {
+        "instruction": "Design a class that stores the coordinates of a 3D point in Java.",
+        "input": "",
+        "output": "public class Point3D {\n    private double x;\n    private double y;\n    private double z;\n\n    public Point3D (double x, double y, double z) {\n        this.x = x;\n        this.y = y;\n        this.z = z;\n    }\n\n    public double getX() {\n        return x;\n    }\n\n    public double getY() {\n        return y;\n    }\n\n    public double getZ() {\n        return z;\n    }\n}",
+        "most_similar_instructions": {
+            "You need to make a program that calculates the area of a circle.": 0.38461538461538464,
+            "Design a class for employee details in C++.": 0.380952380952381,
+            "Design a function in Java to reverse an array in-place.": 0.33333333333333337,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.3225806451612903,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.3076923076923077,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.29629629629629634,
+            "Can you provide a shell script that displays the total number of lines in all '*.txt' files in the current directory?": 0.2941176470588235,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.28571428571428575,
+            "Count the number of consonants in a given sentence.": 0.27272727272727276,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.19683108307388172
+    },
+    {
+        "instruction": "Generate a Python code to find the number of unique elements in a given list.",
+        "input": "",
+        "output": "def unique(list): \n    unique_list = [] \n    for x in list: \n        if x not in unique_list: \n            unique_list.append(x)\n    return len(unique_list)",
+        "most_similar_instructions": {
+            "Write a Python program to find all unique words in a given text.": 0.5714285714285715,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.5,
+            "Count the number of consonants in a given sentence.": 0.5,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.4848484848484848,
+            "Write a Python function to reverse a given list of integers.": 0.4615384615384615,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4137931034482759,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.4000000000000001,
+            "Generate a correct python program to fulfill the following purpose:": 0.4,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.3703703703703704,
+            "Generate a random number sequence in Python.": 0.36363636363636365
+        },
+        "avg_similarity_score": 0.2650423043156658
+    },
+    {
+        "instruction": "Design a function in JavaScript to sort a given array in ascending order.",
+        "input": "",
+        "output": "function sortAsc(array) {\n  return array.sort((a, b) => a - b);\n}",
+        "most_similar_instructions": {
+            "Design a function in Java to reverse an array in-place.": 0.5833333333333334,
+            "Write a Python function to reverse a given list of integers.": 0.41666666666666663,
+            "Create an algorithm to sort an array of integers in descending order.": 0.4,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.3571428571428571,
+            "Write a Python program to find all unique words in a given text.": 0.3076923076923077,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.3076923076923077,
+            "Design a class that stores the coordinates of a 3D point in Java.": 0.3076923076923077,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.29629629629629634,
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.29629629629629634,
+            "Write a Java program to check if a given number is a prime number.": 0.29629629629629634
+        },
+        "avg_similarity_score": 0.2090267154686248
+    },
+    {
+        "instruction": "Edit a C program to find the average of three numbers.",
+        "input": "#include <stdio.h> \nint main() { \n    int num1, num2, num3; \n    printf(\"Enter three numbers: \"); \n    scanf(\"%d%d%d\", &num1, &num2, &num3); \n    printf(\"Average of three numbers = %d\", (num1 + num2 + num3)/3); \n    return 0; \n}",
+        "output": "#include <stdio.h> \nint main() { \n    double num1, num2, num3; \n    printf(\"Enter three numbers: \"); \n    scanf(\"%lf%lf%lf\", &num1, &num2, &num3); \n    printf(\"Average of three numbers = %lf\", (num1 + num2 + num3)/3); \n    return 0; \n}",
+        "most_similar_instructions": {
+            "Write a SQL query to find the average rating of customers who bought strawberries.": 0.4799999999999999,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.41666666666666663,
+            "Write a program to compute the sum of integers from k to n.": 0.41666666666666663,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.4,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.3846153846153846,
+            "Generate a correct python program to fulfill the following purpose:": 0.380952380952381,
+            "You need to make a program that calculates the area of a circle.": 0.33333333333333337,
+            "Write a Python program to find all unique words in a given text.": 0.33333333333333337,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.30769230769230765
+        },
+        "avg_similarity_score": 0.22930276692927945
+    },
+    {
+        "instruction": "Generate a C# method to reverse a string.",
+        "input": "",
+        "output": "public static string ReverseString(string s)\n{ \n    char[] arr = s.ToCharArray();\n    Array.Reverse(arr);\n    return new string(arr); \n}",
+        "most_similar_instructions": {
+            "Implement a Java method to reverse a string without using any built-in functions.": 0.5454545454545454,
+            "Write a Python function to reverse a given list of integers.": 0.4210526315789474,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.380952380952381,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.3478260869565218,
+            "Generate a correct python program to fulfill the following purpose:": 0.33333333333333326,
+            "Edit a C program to find the average of three numbers.": 0.3157894736842105,
+            "Design a function in Java to reverse an array in-place.": 0.3157894736842105,
+            "Generate a random password with a minimum length of 8 characters.": 0.3157894736842105,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.2962962962962963,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.2857142857142857
+        },
+        "avg_similarity_score": 0.2006993222219165
+    },
+    {
+        "instruction": "Create a Java program to find the prime factors of a given number.",
+        "input": "",
+        "output": "public static List<Integer> getPrimeFactors(int n) { \n    List<Integer> factors = new ArrayList<Integer>(); \n    for (int i = 2; i * i <= n; i++) { \n        while (n % i == 0) { \n            factors.add(i); \n            n /= i; \n        } \n    } \n    if (n > 1) {\n        factors.add(n); \n    }\n    return factors; \n}",
+        "most_similar_instructions": {
+            "Write a Java program to calculate the sum of digits of a given number.": 0.6666666666666666,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.6153846153846154,
+            "Write a Java program to check if a given number is a prime number.": 0.5185185185185186,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.5185185185185186,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.5,
+            "Edit a C program to find the average of three numbers.": 0.4999999999999999,
+            "Write a Python program to find all unique words in a given text.": 0.46153846153846156,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.42857142857142855,
+            "You need to make a program that calculates the area of a circle.": 0.38461538461538464,
+            "Write a program to compute the sum of integers from k to n.": 0.38461538461538464
+        },
+        "avg_similarity_score": 0.27862077804547414
+    },
+    {
+        "instruction": "Optimize a program in C to find the GCD of two given numbers using modulo operator.",
+        "input": "int gcd(int x, int y)\n{ \n    int i; \n    for (i = x; i > 0; i--) { \n        if (x % i == 0 && y % i == 0) \n            return i; \n    }\n}",
+        "output": "int gcd(int x, int y) \n{ \n    if (x == 0) \n        return y; \n    return gcd(y % x, x); \n}",
+        "most_similar_instructions": {
+            "Edit a C program to find the average of three numbers.": 0.5185185185185185,
+            "Create a Java program to find the prime factors of a given number.": 0.4827586206896552,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.41379310344827586,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.39999999999999997,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.38709677419354843,
+            "Write a Python program to find all unique words in a given text.": 0.3448275862068966,
+            "Write a program to compute the sum of integers from k to n.": 0.3448275862068966,
+            "Write a SQL query to find the average rating of customers who bought strawberries.": 0.3333333333333333,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.3333333333333333,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.3225806451612903
+        },
+        "avg_similarity_score": 0.22995925955438404
+    },
+    {
+        "instruction": "Write an SQL query to select the employee name, job title and department name from the database.",
+        "input": "",
+        "output": "SELECT e.name, j.title, d.name\nFROM Employee e\nINNER JOIN Jobs j ON e.job_id = j.id\nINNER JOIN Departments d ON j.department_id = d.id;",
+        "most_similar_instructions": {
+            "Write an SQL query to select all columns from a table named 'employees' where the age is greater than 30.": 0.4324324324324324,
+            "Write a SQL query to find the average rating of customers who bought strawberries.": 0.3225806451612903,
+            "Write a program to compute the sum of integers from k to n.": 0.26666666666666666,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.22857142857142856,
+            "Write a script in JavaScript for printing the current date and time.": 0.20689655172413793,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.20689655172413793,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.1935483870967742,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.18750000000000003,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.17647058823529413,
+            "Write a JavaScript code snippet to show an alert message with the text \"Welcome to my website!\".": 0.17647058823529413
+        },
+        "avg_similarity_score": 0.12460890177880335
+    },
+    {
+        "instruction": "Generate a code which calculates the sum of two numbers.",
+        "input": "num1 = 2\nnum2 = 4",
+        "output": "total = num1 + num2\nprint(total) # Output: 6",
+        "most_similar_instructions": {
+            "Generate a Python code to find the number of unique elements in a given list.": 0.4,
+            "Optimize a program in C to find the GCD of two given numbers using modulo operator.": 0.38461538461538464,
+            "Edit a C program to find the average of three numbers.": 0.380952380952381,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.35714285714285715,
+            "Generate a secure password of 8 characters.": 0.3529411764705882,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.34782608695652173,
+            "You need to make a program that calculates the area of a circle.": 0.34782608695652173,
+            "Write a program to compute the sum of integers from k to n.": 0.34782608695652173,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.3333333333333333,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.32
+        },
+        "avg_similarity_score": 0.20970985964731584
+    },
+    {
+        "instruction": "Create a function that takes in a list and a single integer and returns a boolean value representing whether the integer is present in the list or not.",
+        "input": "myList = [1, 2, 3, 4, 5]\nnum = 3",
+        "output": "def exists_in_list(myList, num): \n    return num in myList",
+        "most_similar_instructions": {
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.35555555555555557,
+            "Make a C program which takes a string as input and returns the last two characters in the string.": 0.3404255319148936,
+            "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.": 0.3111111111111111,
+            "Write a Python function that takes two numbers as input and returns their sum.": 0.2857142857142857,
+            "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.": 0.27450980392156865,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.2608695652173913,
+            "Create a program that reads an array of integers and prints out the length of the longest increasing subarray.": 0.2553191489361702,
+            "Write a Python function to check if a given word is a palindrome or not. A palindrome is a word that reads the same backwards as forwards.": 0.2545454545454545,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.24390243902439027,
+            "Create a function which returns false if two strings are equal.": 0.2051282051282051
+        },
+        "avg_similarity_score": 0.15218976209271062
+    },
+    {
+        "instruction": "Write a code in Python to check if a given string is a palindrome or not.",
+        "input": "my_string = \"malayalam\"",
+        "output": "def is_palindrome(my_string): \n    rev_string = reversed(my_string) \n    if list(my_string) == list(rev_string): \n        return True\n    else:\n        return False",
+        "most_similar_instructions": {
+            "Write a Python function to check if a given word is a palindrome or not. A palindrome is a word that reads the same backwards as forwards.": 0.6046511627906976,
+            "Write a Java program to check if a given number is a prime number.": 0.6000000000000001,
+            "Write a Python function to reverse a given list of integers.": 0.4444444444444444,
+            "Write a Python program to find all unique words in a given text.": 0.41379310344827586,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.3448275862068966,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.3333333333333333,
+            "Generate a C# method to reverse a string.": 0.3333333333333333,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.3225806451612903,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.3225806451612903,
+            "You need to read a code and detect if there is a syntax error or not. Outpus true if there is error, output false if there is not.": 0.3181818181818182
+        },
+        "avg_similarity_score": 0.22279571440117277
+    },
+    {
+        "instruction": "Create a function that takes in a dictionary containing the details of a user and prints each key and value on a separate line.",
+        "input": "my_dict = {\"name\": \"John\", \"age\": 20, \"address\": \"USA\"}",
+        "output": "def print_dict(my_dict):\n    print(\"The user details are:\")\n    for key, value in my_dict.items():\n        print(key + \": \" + str(value))",
+        "most_similar_instructions": {
+            "Create a function that takes in a list and a single integer and returns a boolean value representing whether the integer is present in the list or not.": 0.3846153846153846,
+            "Create a program that reads a string of characters and prints the longest \\\npalindrome within the string.": 0.34146341463414637,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.34146341463414637,
+            "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.": 0.2978723404255319,
+            "Create a program that reads an array of integers and prints out the length of the longest increasing subarray.": 0.27906976744186046,
+            "Design a class that stores the coordinates of a 3D point in Java.": 0.2702702702702703,
+            "You need to make a program that calculates the area of a circle.": 0.2702702702702703,
+            "Create a Java program to find the prime factors of a given number.": 0.2702702702702703,
+            "Write a Python function that takes two numbers as input and returns their sum.": 0.2631578947368421,
+            "Write a Python function to reverse a given list of integers.": 0.2285714285714286
+        },
+        "avg_similarity_score": 0.17417562963081204
+    },
+    {
+        "instruction": "Write a Python program to generate a random number between 1 and 6.",
+        "input": "",
+        "output": "import random\nnum = random.randint(1,6)\nprint(\"Random number:\", num)",
+        "most_similar_instructions": {
+            "Write a Python program to find all unique words in a given text.": 0.46153846153846156,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4444444444444445,
+            "Write a Java program to check if a given number is a prime number.": 0.4444444444444445,
+            "Write a Python function to reverse a given list of integers.": 0.41666666666666663,
+            "Generate a random number sequence in Python.": 0.4,
+            "Create a Java program to find the prime factors of a given number.": 0.38461538461538464,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.38461538461538464,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.3703703703703704,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.3571428571428571,
+            "Generate a correct python program to fulfill the following purpose:": 0.34782608695652173
+        },
+        "avg_similarity_score": 0.22864564048201644
+    },
+    {
+        "instruction": "Generate a Python program to sort a list of numbers.",
+        "input": "myList = [3, 6, 8, 10, 2]",
+        "output": "def sortList(myList): \n    for i in range(len(myList)): \n        for j in range(1, len(myList)): \n            if myList[j]< myList[j-1]: \n                myList[j], myList[j-1] = myList[j-1], myList[j]\n\n# sorted list\nprint(myList) # Output: [2, 3, 6, 8, 10]",
+        "most_similar_instructions": {
+            "Write a Python function to reverse a given list of integers.": 0.5714285714285713,
+            "Generate a correct python program to fulfill the following purpose:": 0.5,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.48,
+            "Edit a C program to find the average of three numbers.": 0.47619047619047616,
+            "Generate a C# method to reverse a string.": 0.4444444444444445,
+            "Write a Python program to find all unique words in a given text.": 0.4347826086956522,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.4347826086956522,
+            "Write a Python program to generate a random number between 1 and 6.": 0.4347826086956522,
+            "Generate a code which calculates the sum of two numbers.": 0.4000000000000001,
+            "Optimize a program in C to find the GCD of two given numbers using modulo operator.": 0.38461538461538464
+        },
+        "avg_similarity_score": 0.2571830080790474
+    },
+    {
+        "instruction": "Create code to replace all the vowels present in a given string with '*'.",
+        "input": "my_string = \"Hello World\"",
+        "output": "def replace_vowels(my_string): \n    new_string = \"\" \n    for char in my_string: \n        if char in \"aeiouAEIOU\": \n            new_string += \"*\"\n        else:\n            new_string += char \n    return new_string\n\nprint(replace_vowels(my_string)) # Output: H*ll* W*rld",
+        "most_similar_instructions": {
+            "Generate a Python code to find the number of unique elements in a given list.": 0.42857142857142855,
+            "Write a Python program to find all unique words in a given text.": 0.38461538461538464,
+            "Create a Java program to find the prime factors of a given number.": 0.38461538461538464,
+            "Count the number of consonants in a given sentence.": 0.3636363636363637,
+            "Write a code in Python to check if a given string is a palindrome or not.": 0.3448275862068966,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.32,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.3076923076923077,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.29629629629629634,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.29629629629629634,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.28571428571428575
+        },
+        "avg_similarity_score": 0.20193337675718884
+    },
+    {
+        "instruction": "Write an SQL query to select all the rows in a table \u2018students\u2019 and display the total count.",
+        "input": "",
+        "output": "SELECT COUNT(*) FROM students;",
+        "most_similar_instructions": {
+            "Write an SQL query to select all columns from a table named 'employees' where the age is greater than 30.": 0.5263157894736842,
+            "Write an SQL query to select the employee name, job title and department name from the database.": 0.5142857142857143,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.33333333333333337,
+            "Create code to replace all the vowels present in a given string with '*'.": 0.3225806451612903,
+            "Write a Python program to find all unique words in a given text.": 0.3225806451612903,
+            "Write a SQL query to find the average rating of customers who bought strawberries.": 0.31250000000000006,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2777777777777778,
+            "Write a Python program to generate a random number between 1 and 6.": 0.2580645161290323,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.25,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.2424242424242424
+        },
+        "avg_similarity_score": 0.18143252840529892
+    },
+    {
+        "instruction": "Generate a Python program to count the number of vowels in a given string.",
+        "input": "my_string = \"Hello World\"",
+        "output": "def count_vowels(my_string): \n    vowels = \"aeiouAEIOU\"\n    count = 0 \n    for char in my_string:\n        if char in vowels: \n            count += 1\n    return count \n\nprint(count_vowels(my_string)) # Output: 3",
+        "most_similar_instructions": {
+            "Generate a Python code to find the number of unique elements in a given list.": 0.689655172413793,
+            "Count the number of consonants in a given sentence.": 0.6086956521739131,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.5925925925925927,
+            "Write a Python program to find all unique words in a given text.": 0.5185185185185186,
+            "Create a Java program to find the prime factors of a given number.": 0.5185185185185186,
+            "Create code to replace all the vowels present in a given string with '*'.": 0.5185185185185186,
+            "Generate a Python program to sort a list of numbers.": 0.5,
+            "Generate a correct python program to fulfill the following purpose:": 0.5,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.5,
+            "Generate a C# method to reverse a string.": 0.45454545454545453
+        },
+        "avg_similarity_score": 0.30118306647963994
+    },
+    {
+        "instruction": "Create a JavaScript function to check whether a number is even or odd.",
+        "input": "",
+        "output": "function isEven(num) {\n    if(num % 2 === 0) \n        return true;\n    else\n        return false;\n}",
+        "most_similar_instructions": {
+            "Write a Java program to check if a given number is a prime number.": 0.4444444444444445,
+            "Write a code in Python to check if a given string is a palindrome or not.": 0.41379310344827586,
+            "Create a Java program to find the prime factors of a given number.": 0.38461538461538464,
+            "Write a Python function to check if a given word is a palindrome or not. A palindrome is a word that reads the same backwards as forwards.": 0.35000000000000003,
+            "Write a Python function to reverse a given list of integers.": 0.33333333333333337,
+            "Write a Python program to generate a random number between 1 and 6.": 0.3076923076923077,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.3076923076923077,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.3076923076923077,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.29629629629629634,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.29629629629629634
+        },
+        "avg_similarity_score": 0.1925870202438386
+    },
+    {
+        "instruction": "Write a code in Python to return the maximum number from a list of numbers.",
+        "input": "myList = [1, 2, 3, 4, 5]",
+        "output": "def max_number(myList): \n    max_num = myList[0]\n    for num in myList[1:]:\n        if num > max_num:\n            max_num = num\n    return max_num\n\nprint(max_number(myList)) # Output: 5",
+        "most_similar_instructions": {
+            "Generate a Python program to sort a list of numbers.": 0.56,
+            "Write a Python function to reverse a given list of integers.": 0.5384615384615385,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.4666666666666667,
+            "Write a code in Python to check if a given string is a palindrome or not.": 0.45161290322580644,
+            "Generate a Python program to count the number of vowels in a given string.": 0.4137931034482759,
+            "Write a Python function to find all prime numbers up to the given number n.": 0.4000000000000001,
+            "Generate a code which calculates the sum of two numbers.": 0.4,
+            "Optimize a program in C to find the GCD of two given numbers using modulo operator.": 0.38709677419354843,
+            "Edit a C program to find the average of three numbers.": 0.3846153846153846,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.3636363636363636
+        },
+        "avg_similarity_score": 0.2662013571802674
+    },
+    {
+        "instruction": "Create a program to take an array of numbers and sort them in ascending order.",
+        "input": "myList = [7, 5, 3, 10, 2]",
+        "output": "def sort_numbers(myList): \n    for i in range(len(myList)): \n        for j in range(1, len(myList)): \n            if myList[j] < myList[j-1]:\n                myList[j], myList[j-1] = myList[j-1], myList[j]\n                \n# sorted list\nprint(myList) # Output: [2, 3, 5, 7, 10]",
+        "most_similar_instructions": {
+            "Create an algorithm to sort an array of integers in descending order.": 0.5185185185185186,
+            "Create a JavaScript function that takes an array of numbers and returns the product of all elements.": 0.43749999999999994,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.42857142857142855,
+            "Create a program that reads an array of integers and prints out the length of the longest increasing subarray.": 0.4117647058823529,
+            "Generate a Python program to sort a list of numbers.": 0.4,
+            "Edit a C program to find the average of three numbers.": 0.3846153846153846,
+            "Design a function in Java to reverse an array in-place.": 0.3846153846153846,
+            "Create a program in the language of your choice that takes an array of integers and prints the numbers with the highest frequency.": 0.3684210526315789,
+            "Create a Java program to find the prime factors of a given number.": 0.3571428571428571,
+            "Generate a Python program to count the number of vowels in a given string.": 0.3448275862068965
+        },
+        "avg_similarity_score": 0.22201338684167407
+    },
+    {
+        "instruction": "Write an SQL query to sort the data in a table 'employees' based on the salary field in descending order.",
+        "input": "",
+        "output": "SELECT * FROM employees ORDER BY salary DESC;",
+        "most_similar_instructions": {
+            "Write an SQL query to select all the rows in a table \u2018students\u2019 and display the total count.": 0.5263157894736842,
+            "Write an SQL query to select all columns from a table named 'employees' where the age is greater than 30.": 0.45,
+            "Write an SQL query to select the employee name, job title and department name from the database.": 0.37837837837837834,
+            "Create an algorithm to sort an array of integers in descending order.": 0.37499999999999994,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.3125,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.30303030303030304,
+            "Write a SQL query to find the average rating of customers who bought strawberries.": 0.2941176470588235,
+            "Compute the sum of numbers in a given array using the reduce function in JavaScript.": 0.28571428571428575,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.2631578947368421,
+            "Create code to replace all the vowels present in a given string with '*'.": 0.24242424242424246
+        },
+        "avg_similarity_score": 0.18168045926518736
+    },
+    {
+        "instruction": "Create a code to remove all the duplicate elements present in a list of numbers.",
+        "input": "myList = [1, 2, 3, 2, 4, 5, 1]",
+        "output": "def remove_duplicate(myList): \n    new_list = [] \n    for num in myList:\n        if num not in new_list:\n            new_list.append(num)\n    return new_list\n\nprint(remove_duplicate(myList)) # Output: [1, 2, 3, 4, 5]",
+        "most_similar_instructions": {
+            "Create code to replace all the vowels present in a given string with '*'.": 0.5714285714285715,
+            "Write a code in Python to return the maximum number from a list of numbers.": 0.5333333333333333,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.5333333333333333,
+            "Generate a Python program to sort a list of numbers.": 0.48,
+            "Generate a code which calculates the sum of two numbers.": 0.4,
+            "Edit a C program to find the average of three numbers.": 0.3846153846153846,
+            "Write a Python function to reverse a given list of integers.": 0.3846153846153846,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.3703703703703704,
+            "Write a Python program to find all unique words in a given text.": 0.3571428571428571,
+            "Create a Java program to find the prime factors of a given number.": 0.3571428571428571
+        },
+        "avg_similarity_score": 0.25081038967735747
+    },
+    {
+        "instruction": "Create a program in Python to sort a list of numbers in ascending order.",
+        "input": "[45, 2, 56, 23, 80]",
+        "output": "def sort(nums):\n  for i in range(len(nums) - 1):\n    min_pos = i\n    for j in range(i + 1, len(nums)):\n      if nums[min_pos] > nums[j]:\n        min_pos = j\n    nums[i], nums[min_pos] = nums[min_pos], nums[i]\n  return nums\n\nif __name__ == \"__main__\":\n    nums = [45, 2, 56, 23, 80]\n    print(sort(nums))",
+        "most_similar_instructions": {
+            "Generate a Python program to sort a list of numbers.": 0.6666666666666666,
+            "Create a program to take an array of numbers and sort them in ascending order.": 0.6206896551724138,
+            "Design a function in JavaScript to sort a given array in ascending order.": 0.5925925925925927,
+            "Write a code in Python to return the maximum number from a list of numbers.": 0.5517241379310344,
+            "Create a code to remove all the duplicate elements present in a list of numbers.": 0.4827586206896552,
+            "Write a Python function to reverse a given list of integers.": 0.4799999999999999,
+            "Create an algorithm to sort an array of integers in descending order.": 0.4615384615384615,
+            "Edit a C program to find the average of three numbers.": 0.4,
+            "Optimize a program in C to find the GCD of two given numbers using modulo operator.": 0.39999999999999997,
+            "Create a Java program to find the prime factors of a given number.": 0.3703703703703704
+        },
+        "avg_similarity_score": 0.2673685873504446
+    },
+    {
+        "instruction": "Write a code to find the longest word in a sentence.",
+        "input": "",
+        "output": "def find_longest_word(sentence):\n    words = sentence.split()\n    longest_word = words[0]\n    for word in words:\n        if len(word) > len(longest_word):\n            longest_word = word\n    return longest_word\n\nif __name__ == '__main__':\n    sentence = input(\"Enter your sentence: \")\n    longest_word = find_longest_word(sentence)\n    print(\"The longest word is: \" + longest_word)",
+        "most_similar_instructions": {
+            "Generate a Python code to find the number of unique elements in a given list.": 0.5384615384615385,
+            "Develop an algorithm to find out the duplicate words in a sentence.": 0.5217391304347826,
+            "Write a Python program to find all unique words in a given text.": 0.4999999999999999,
+            "Create a code to remove all the duplicate elements present in a list of numbers.": 0.4615384615384615,
+            "Write a code in Python to return the maximum number from a list of numbers.": 0.4615384615384615,
+            "Create a Java program to find the prime factors of a given number.": 0.41666666666666663,
+            "Create code to replace all the vowels present in a given string with '*'.": 0.41666666666666663,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.41379310344827586,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4,
+            "Write a SQL query to find the average rating of customers who bought strawberries.": 0.4
+        },
+        "avg_similarity_score": 0.27951920516379947
+    },
+    {
+        "instruction": "Create a program to identify the most frequent character in a string.",
+        "input": "",
+        "output": "def most_frequent_char(s): \n    max_count = 0\n    max_char = None\n    char_count = {}\n    for char in s:\n        if char in char_count:\n            char_count[char] += 1\n        else:\n            char_count[char] = 1\n            if max_count < char_count[char]:\n                max_count = char_count[char]\n                max_char = char\n    return (max_char, max_count)\n\nif __name__ == '__main__':\n    s = input(\"Enter a string: \")\n    max_char, max_count = most_frequent_char(s)\n    print(\"Most frequent character: {} (count = {})\".format(max_char, max_count))",
+        "most_similar_instructions": {
+            "Generate a Python program to count the number of vowels in a given string.": 0.5384615384615384,
+            "Create a Java program to find the prime factors of a given number.": 0.48000000000000004,
+            "Create code to replace all the vowels present in a given string with '*'.": 0.48000000000000004,
+            "Create a code to remove all the duplicate elements present in a list of numbers.": 0.4444444444444445,
+            "Write a code to find the longest word in a sentence.": 0.43478260869565216,
+            "Write a Python program to find all unique words in a given text.": 0.4,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.4,
+            "Generate a C# method to reverse a string.": 0.4,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.3846153846153846,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.3846153846153846
+        },
+        "avg_similarity_score": 0.2662743243546906
+    },
+    {
+        "instruction": "Write a code to find the number of occurrences of a given character in a string.",
+        "input": "",
+        "output": "def count_occurrences(s, ch):\n    count = 0\n    for char in s:\n        if char == ch:\n            count += 1\n    return count\n\nif __name__ == '__main__':\n    s = input(\"Enter a string: \")\n    ch = input(\"Enter a character: \")\n    count = count_occurrences(s, ch)\n    print(\"The number of occurrences of {} in {} is {}\".format(ch, s, count))",
+        "most_similar_instructions": {
+            "Write a code to find the longest word in a sentence.": 0.5925925925925926,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.5806451612903225,
+            "Generate a Python program to count the number of vowels in a given string.": 0.5333333333333333,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.5333333333333333,
+            "Create a program to identify the most frequent character in a string.": 0.5,
+            "Create a Java program to find the prime factors of a given number.": 0.4827586206896552,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.47058823529411764,
+            "Write a code in Python to return the maximum number from a list of numbers.": 0.45161290322580644,
+            "Write a code in Python to check if a given string is a palindrome or not.": 0.4375,
+            "Create code to replace all the vowels present in a given string with '*'.": 0.41379310344827586
+        },
+        "avg_similarity_score": 0.2879253552243734
+    },
+    {
+        "instruction": "Create a code to convert the given string to uppercase.",
+        "input": "",
+        "output": "def to_uppercase(s):\n    return s.upper()\n\nif __name__ == '__main__':\n    s = input(\"Enter a string: \")\n    upper_s = to_uppercase(s)\n    print(\"The uppercase string is: \" + upper_s)",
+        "most_similar_instructions": {
+            "Create code to replace all the vowels present in a given string with '*'.": 0.5217391304347826,
+            "Write a code to find the number of occurrences of a given character in a string.": 0.4615384615384615,
+            "Create a program to identify the most frequent character in a string.": 0.45454545454545453,
+            "Create a Java program to find the prime factors of a given number.": 0.4347826086956522,
+            "Generate a Python program to count the number of vowels in a given string.": 0.41666666666666663,
+            "Create a code to remove all the duplicate elements present in a list of numbers.": 0.4,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.4,
+            "Write a code in Python to check if a given string is a palindrome or not.": 0.38461538461538464,
+            "Write a code to find the longest word in a sentence.": 0.380952380952381,
+            "Translate a given sentence into uppercase.": 0.37499999999999994
+        },
+        "avg_similarity_score": 0.24437433211318235
+    },
+    {
+        "instruction": "Design a program to convert temperature from Celsius to Fahrenheit.",
+        "input": "",
+        "output": "def celsius_to_fahrenheit(celsius):\n    fahrenheit = celsius * 9/5 + 32\n    return fahrenheit\n\nif __name__ == '__main__':\n    celsius = float(input(\"Enter the temperature in Celsius: \"))\n    fahrenheit = celsius_to_fahrenheit(celsius)\n    print(\"The temperature in Fahrenheit is: {:.2f}\".format(fahrenheit))",
+        "most_similar_instructions": {
+            "Write a program to compute the sum of integers from k to n.": 0.4347826086956522,
+            "Create a code to convert the given string to uppercase.": 0.4000000000000001,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.3333333333333333,
+            "Generate a Python program to sort a list of numbers.": 0.3,
+            "Generate a correct python program to fulfill the following purpose:": 0.3,
+            "Create a web scraper to get data from this web page.": 0.28571428571428564,
+            "Design a function in Java to reverse an array in-place.": 0.28571428571428564,
+            "Edit a C program to find the average of three numbers.": 0.28571428571428564,
+            "Create a program to identify the most frequent character in a string.": 0.2727272727272727,
+            "Write a Python program to find all unique words in a given text.": 0.2608695652173913
+        },
+        "avg_similarity_score": 0.16805628546565707
+    },
+    {
+        "instruction": "Write a code to identify the largest of the three given numbers.",
+        "input": "10, -2, 34",
+        "output": "def find_max(a, b, c):\n    max_num = a\n    if b > max_num:\n        max_num = b\n    if c > max_num:\n        max_num = c\n    return max_num\n\nif __name__ == '__main__':\n    a = 10\n    b = -2\n    c = 34\n    max_num = find_max(a, b, c)\n    print(\"The largest number is {}\".format(max_num))",
+        "most_similar_instructions": {
+            "Edit a C program to find the average of three numbers.": 0.5217391304347826,
+            "Write a code in Python to return the maximum number from a list of numbers.": 0.5185185185185186,
+            "Write a code to find the number of occurrences of a given character in a string.": 0.5,
+            "write a code to get the current value of a Bitcoin in US dollars using the bitcoincharts API.": 0.4666666666666666,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4615384615384615,
+            "Generate a code which calculates the sum of two numbers.": 0.45454545454545453,
+            "Create a code to convert the given string to uppercase.": 0.45454545454545453,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.4444444444444445,
+            "Create a code to remove all the duplicate elements present in a list of numbers.": 0.4444444444444445,
+            "Write a code to find the longest word in a sentence.": 0.43478260869565216
+        },
+        "avg_similarity_score": 0.27908696336837646
+    },
+    {
+        "instruction": "Generate a program to verify if a given number is a perfect cube.",
+        "input": "",
+        "output": "def is_perfect_cube(n):\n    cbrt_n = round(n ** (1/3))\n    return n == cbrt_n ** 3\n\nif __name__ == '__main__':\n    n = int(input(\"Enter a number: \"))\n    result = is_perfect_cube(n)\n    print(\"Is the number a perfect cube? {}\".format(result))",
+        "most_similar_instructions": {
+            "Write a Java program to check if a given number is a prime number.": 0.6666666666666666,
+            "Generate a Swift program to compute the factorial of a given number n.": 0.5384615384615384,
+            "Write a code in Python to check if a given string is a palindrome or not.": 0.4827586206896552,
+            "Create a Java program to find the prime factors of a given number.": 0.46153846153846156,
+            "Generate a Python program to count the number of vowels in a given string.": 0.4444444444444445,
+            "Implement a program to print out the Fibonacci numbers up to a given number.": 0.4444444444444445,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4444444444444445,
+            "Generate a Python program to sort a list of numbers.": 0.4347826086956522,
+            "Write a Python program to generate a random number between 1 and 6.": 0.38461538461538464,
+            "Create a JavaScript function to check whether a number is even or odd.": 0.38461538461538464
+        },
+        "avg_similarity_score": 0.23237403342198398
+    },
+    {
+        "instruction": "Create a code to calculate the mode of the given list of integers.",
+        "input": "[1, 7, 4, 4, 3, 4, 2]",
+        "output": "def find_mode(arr):\n mode = None\n max_count = 0\n count = {}\n for value in arr:\n     if value not in count:\n         count[value] = 1\n     else:\n         count[value] += 1\n     if count[value] > max_count:\n         max_count = count[value]\n         mode = value\n return mode\n\nif __name__ == '__main__':\n    arr = [1, 7, 4, 4, 3, 4, 2]\n    mode = find_mode(arr)\n    print(\"The mode is: {}\".format(mode))",
+        "most_similar_instructions": {
+            "Write a code to identify the largest of the three given numbers.": 0.5599999999999999,
+            "Create a code to convert the given string to uppercase.": 0.5217391304347826,
+            "Generate a Python code to find the number of unique elements in a given list.": 0.5,
+            "Create a code to remove all the duplicate elements present in a list of numbers.": 0.5,
+            "Write a Python function to reverse a given list of integers.": 0.4999999999999999,
+            "Create a Java program to find the prime factors of a given number.": 0.46153846153846156,
+            "Write a Java program to calculate the sum of digits of a given number.": 0.4444444444444445,
+            "Write a code in Python to return the maximum number from a list of numbers.": 0.42857142857142855,
+            "Write a code to find the number of occurrences of a given character in a string.": 0.41379310344827586,
+            "Make a code which accepts an integer and counts the number of unique digits in the given number.": 0.3870967741935484
+        },
+        "avg_similarity_score": 0.266412255879143
+    }
+]
